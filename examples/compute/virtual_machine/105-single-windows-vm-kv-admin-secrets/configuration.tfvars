@@ -179,7 +179,7 @@ storage_accounts = {
     #  Valid options are LRS, GRS, RAGRS, ZRS, GZRS and RAGZRS
     account_replication_type = "LRS" # https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy
     min_tls_version          = "TLS1_2"
-    allow_blob_public_access = true
+    allow_nested_items_to_be_public = true
     tags = {
       environment = "dev"
       team        = "IT"

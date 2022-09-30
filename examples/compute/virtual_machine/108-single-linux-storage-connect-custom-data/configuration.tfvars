@@ -135,7 +135,7 @@ storage_accounts = {
     account_tier             = "Standard"  #Valid options are Standard and Premium. For BlockBlobStorage and FileStorage accounts only Premium is valid
     account_replication_type = "LRS"       # https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy
     min_tls_version          = "TLS1_2"    # Possible values are TLS1_0, TLS1_1, and TLS1_2. Defaults to TLS1_0 for new storage accounts.
-    allow_blob_public_access = false
+    allow_nested_items_to_be_public = false
     is_hns_enabled           = false
 
     file_shares = {
